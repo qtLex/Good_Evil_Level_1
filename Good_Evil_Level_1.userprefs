@@ -1,0 +1,53 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_GoodEvil_root\Scripts\InteractiveObjects\cInteractor.cs">
+    <Files>
+      <File FileName="Assets\_GoodEvil_root\Scripts\2DCameraFollower\c2DCameraTrigger.cs" Line="30" Column="24" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\CCheckPointTrigger.cs" Line="9" Column="2" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\PlayerController\cPlayerAnimationController.cs" Line="29" Column="18" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\Jumpers\cVent_UpDown.cs" Line="66" Column="56" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\StateOfPeace\cOpenCloseDoor.cs" Line="3" Column="5" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\StateOfPeace\cInvisibility.cs" Line="68" Column="1" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\InteractiveObjects\cToolTip.cs" Line="19" Column="2" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\PlayerController\cPlayerController.cs" Line="261" Column="54" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\InteractiveObjects\cInteractor.cs" Line="55" Column="9" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\Doors\cTriggeredDoor.cs" Line="42" Column="5" />
+      <File FileName="Assets\_GoodEvil_root\Scripts\PlayerMove.cs" Line="172" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_GoodEvil_root" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="2DCameraFollower" expanded="True" />
+                  <Node name="Doors" expanded="True" />
+                  <Node name="GUI" expanded="True" />
+                  <Node name="InteractiveObjects" expanded="True">
+                    <Node name="cInteractor.cs" selected="True" />
+                  </Node>
+                  <Node name="Jumpers" expanded="True" />
+                  <Node name="PlayerController" expanded="True" />
+                  <Node name="StateOfPeace" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>CalculateParralaxVector(Parallax)</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

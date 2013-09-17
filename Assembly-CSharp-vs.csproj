@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C528AC5D-4803-809D-B51D-62AB3309C376}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_0;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CButtonAnimationController.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\2DCameraFollower\c2DCameraFollower.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\2DCameraFollower\c2DCameraTrigger.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\CCheckPointTrigger.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\CGlobalStatic.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\CPuzzleTrigger.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Conveyor\cConveyorController.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Doors\cTriggeredDoor.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\GUI\CIndicationControl.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\GUI\CTalksControls.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\GUI\CTalksTrigger.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Global\cGlobalData.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Global\cManagerGlobalState.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\InteractiveObjects\c2StateButton.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\InteractiveObjects\cConditionalButton.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\InteractiveObjects\cInteractor.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\InteractiveObjects\cPickable.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\InteractiveObjects\cToolTip.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Jumpers\cVent_UpDown.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Messenger\cCallBack.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Messenger\cMessenger.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\PlayerController\cPlayerAnimationController.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\PlayerController\cPlayerController.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\StateOfPeace\cInvisibility.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\StateOfPeace\cOpenCloseDoor.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Traps\CActivLift.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Traps\CCombinationLock.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Traps\CPlatformManagement.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Traps\cDieOnTouch.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Traps\cPlatformController.cs" />
+     <Compile Include="Assets\_GoodEvil_root\Scripts\Traps\cTimer.cs" />
+     <None Include="Assets\_GoodEvil_root\Resources\GUI\Level1_Test.xml" />
+     <None Include="Assets\_GoodEvil_root\Materials\xRayShader.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
